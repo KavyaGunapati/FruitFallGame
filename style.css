@@ -1,0 +1,146 @@
+bod{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+.container{
+  margin: auto;
+    width: 70%;
+    height: 95vh;
+    display: grid;
+    background-color: rgb(5, 5, 54);
+    border-radius: 10px;
+}
+.navBar{
+    margin-left: 30px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 0;
+    height: 100px;
+    margin-top: 20px;
+}
+.inner-container1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.inner-container1 p{
+    background-color: rgb(43, 41, 41);
+    border-radius: 30px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+}
+#title{
+    color: rgb(158, 158, 25);
+    font-weight: 30px;
+    font-size: 30px;
+}
+#title img{
+    size: 20px;
+    width: 20px;
+}
+.container2{
+    height: 70vh;
+    margin-top: 0;
+    margin-bottom: 5px;
+    border: 1px solid rgb(59, 10, 59);
+    background-color: rgb(59, 10, 59);
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+select{
+    background-color: rgb(43, 40, 40);
+    border-radius: 6px;
+    width: 60px;
+}
+.container2 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+   margin-left: 15px;
+   opacity: 0;
+  
+}
+#basket {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    transition: left 0.05s linear, top 0.05s linear;
+}
+
+
+@keyframes fruitsMove {
+    0%{
+        transform: translateY(0px) ;
+        opacity: 0.6;
+    }
+    
+   100%{
+        transform: translateY(380px) ;
+        opacity: 1;
+    }
+    
+}
+#img1{
+    animation: fruitsMove 9s ease 49s infinite ;
+}
+#img2{
+    animation: fruitsMove 5s ease 39s infinite ;  
+}
+#img3{
+    animation: fruitsMove 10s ease 29s infinite ;  
+}
+#img4{
+    animation: fruitsMove 6s ease 19s infinite  ;  
+}
+#img5{
+    animation: fruitsMove 11s ease 59s infinite;  
+}
+#img6{
+    animation: fruitsMove 12s ease-in 9s infinite ;  
+}
+#img7{
+    animation: fruitsMove 7s ease 2s infinite ;  
+}
+#img8{
+    animation: fruitsMove 6s ease 54s infinite ;  
+}
+#img9{
+    animation: fruitsMove 5s ease 44s infinite  ;  
+}
+#img10{
+    animation: fruitsMove 7s ease 34s infinite ;  
+}
+#img11{
+    animation: fruitsMove 12s ease 24s infinite  ;  
+}
+#img12{
+    animation: fruitsMove 11s ease 14s infinite ;  
+}
+#img13{
+    animation: fruitsMove 8s ease 6s infinite ;  
+}
+#img14{
+    animation: fruitsMove 10s ease 51s infinite  ;  
+}
+#img15{
+    animation: fruitsMove 8s ease 31s infinite  ;  
+}
+#img16{
+    animation: fruitsMove 7s ease 19s infinite  ;  
+}
+#img17{
+    animation: fruitsMove 6s ease 25s infinite;  
+}
